@@ -271,10 +271,11 @@
     "https://mangaflame.org/[Mangaflame][chrome,firefox,safari,imtAndroid]",
     "https://templetoons.com/[Templetoons][chrome,firefox,safari]",
     "https://batocomic.net/[Batocomic][chrome,firefox,safari,imtAndroid]",
-    "https://comic-action.com/[Comic-action]",
-    "https://m.ac.qq.com/[腾讯动漫]",
-    "https://www.mangajikan.com/[Mangajikan]",
-    "https://Komiku.com/[komiku]"
+    "https://comic-action.com/[Comic-action][chrome,firefox,safari]",
+    "https://m.ac.qq.com/[腾讯动漫][chrome,firefox,safari]",
+    "https://www.mangajikan.com/[Mangajikan][chrome,firefox,safari]",
+    "https://Komiku.com/[komiku][chrome,firefox,safari]",
+    "https://klz9.com[KL][chrome,firefox]"
   ],
   "supportedVideoSubtitleSites": [
     "https://www.youtube.com[Youtube]",
@@ -1437,9 +1438,12 @@
       "checkSelfUpdate": true
     },
     "imageRule": {
+      "blockToolsUrls": [
+        "www.figma.com"
+      ],
       "enable": true,
       "mangaTranslator": "auto",
-      "commonTranslator": "deepl",
+      "commonTranslator": "bing",
       "enableTools": true,
       "hoverMinWidth": 100,
       "hoverMinHeight": 100,
@@ -1450,7 +1454,7 @@
       "errorTimes": 3,
       "errorInterval": 5000,
       "enableImageTranslation": "pro_beta",
-      "toolsDelayTime": 1200,
+      "toolsDelayTime": 1500,
       "latinLang": [
         "en",
         "fr",
@@ -4625,6 +4629,9 @@
         "weibo.com",
         "*.weibo.*"
       ],
+      "excludeMatches": [
+        "passport.weibo.com/sso/signin*"
+      ],
       "selectors": [
         "div[class^='detail_wbtext']",
         ".weibo-text"
@@ -7373,6 +7380,11 @@
         "type": "manga",
         "imageSelectors": [
           "#chapter-images-id img"
+        ],
+        "platforms": [
+          "chrome",
+          "firefox",
+          "safari"
         ]
       }
     },
@@ -7385,6 +7397,11 @@
         "type": "manga",
         "imageSelectors": [
           ".comic-pic"
+        ],
+        "platforms": [
+          "chrome",
+          "firefox",
+          "safari"
         ]
       }
     },
@@ -8215,6 +8232,24 @@
       }
     },
     {
+      "id": "klz9",
+      "matches": [
+        "klz9.com"
+      ],
+      "imageRule.add_v.[1.10.5]": {
+        "enable": true,
+        "type": "manga",
+        "imageSelectors": [
+          ".chapter-img"
+        ],
+        "intersectionRootMargin": "0px 0px 200% 0px",
+        "platforms": [
+          "chrome",
+          "firefox"
+        ]
+      }
+    },
+    {
       "id": "manhwato",
       "matches": [
         "manhwato.com"
@@ -8612,6 +8647,11 @@
         "type": "manga",
         "imageSelectors": [
           "#chapter-images-id img"
+        ],
+        "platforms": [
+          "chrome",
+          "firefox",
+          "safari"
         ]
       }
     },
@@ -8626,6 +8666,11 @@
         "opImageType": "append",
         "imageSelectors": [
           "canvas.page-image"
+        ],
+        "platforms": [
+          "chrome",
+          "firefox",
+          "safari"
         ]
       }
     },
@@ -8639,6 +8684,11 @@
         "type": "manga",
         "imageSelectors": [
           ".img-content img"
+        ],
+        "platforms": [
+          "chrome",
+          "firefox",
+          "safari"
         ]
       }
     },
@@ -11267,7 +11317,8 @@
         "#footer",
         ".summary > h3",
         ".notes > h3"
-      ]
+      ],
+      "longBuildPageLength": 1000
     },
     {
       "id": "bitwarden.com",
@@ -11503,6 +11554,11 @@
         "type": "manga",
         "imageSelectors": [
           ".chapter-content img"
+        ],
+        "platforms": [
+          "chrome",
+          "firefox",
+          "safari"
         ]
       }
     },
@@ -11514,6 +11570,11 @@
         "type": "manga",
         "imageSelectors": [
           ".more-box img"
+        ],
+        "platforms": [
+          "chrome",
+          "firefox",
+          "safari"
         ]
       }
     },
@@ -11525,6 +11586,11 @@
         "type": "manga",
         "imageSelectors": [
           ".container img"
+        ],
+        "platforms": [
+          "chrome",
+          "firefox",
+          "safari"
         ]
       }
     },
@@ -11536,6 +11602,11 @@
         "type": "manga",
         "imageSelectors": [
           "#readerarea img"
+        ],
+        "platforms": [
+          "chrome",
+          "firefox",
+          "safari"
         ]
       }
     },
@@ -11735,8 +11806,19 @@
       "id": "justia",
       "matches": "supreme.justia.com",
       "longBuildPageLength": 10000
+    },
+    {
+      "id": "ml4vis",
+      "matches": "ml4vis.github.io",
+      "globalStyles.add": {
+        ".jss42": "height:unset;",
+        ".jss44": "max-height:unset;"
+      },
+      "excludeSelectors.add": [
+        ".jss45"
+      ]
     }
   ],
-  "buildinConfigUpdatedAt": "2024-10-22T14:12:27.204Z",
-  "latestVersion": "1.10.4"
+  "buildinConfigUpdatedAt": "2024-10-23T10:05:31.663Z",
+  "latestVersion": "1.10.5"
 }
