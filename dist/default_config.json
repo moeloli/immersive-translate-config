@@ -1092,6 +1092,18 @@
       }
     },
     {
+      "condition": "interfaceLanguage!=zh-CN && versionNumber>12802 && abTagNumber<1",
+      "advanceConfig": {
+        "enableFreeModelMode": true,
+        "translationServices.add": {
+          "google-free": {
+            "disabledAt": "2026-04-19",
+            "migrateToService": "free-model"
+          }
+        }
+      }
+    },
+    {
       "condition": "interfaceLanguage==zh-CN && versionNumber>12701 && abTagNumber==0",
       "advanceConfig": {
         "translationService": "free-model",
@@ -22106,6 +22118,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-04-20T06:56:26.109Z",
+  "buildinConfigUpdatedAt": "2026-04-20T07:12:43.513Z",
   "latestVersion": "1.28.4"
 }
