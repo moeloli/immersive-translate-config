@@ -1,0 +1,45 @@
+name: Publish tags-config
+on:
+  repository_dispatch:
+    types:
+      - deploy-tags-config
+  workflow_dispatch:
+    inputs:
+      branch:
+        default: "main"
+        description: "extension branch"
+        type: string
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    concurrency: tags-config-build
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+        with:
+          repository: immersive-translate/extension
+          ref: ${{ github.event.inputs.branch || 'main' }}
+          token: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
+      - name: Clone repo
+        run: git clone https://$PERSONAL_GITHUB_TOKEN@github.com/immersive-translate/config repo
+        env:
+          PERSONAL_GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
+      - name: Setup Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.46.2
+      - name: test
+        run: make test
+      - name: generate repo/dist/tags-config.json
+        run: make generatetagsconfig target=repo/dist/tags-config.json
+      - name: commit
+        env:
+          PERSONAL_GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
+        run: |
+          cd repo
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add dist/tags-config.json
+          git commit -m "update tags-config.json"
+          git remote -v
+          git push
