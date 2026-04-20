@@ -21908,7 +21908,8 @@
         ".textFrame [type='application/pdf'][src*=pdf]",
         ".ggPdf",
         "[id=pdfCanvasContainer] > iframe[src*=pdf]",
-        ".viewercontent-container  iframe[src*=documents]"
+        ".viewercontent-container  iframe[src*=documents]",
+        "object[type='application/pdf']"
       ],
       "pdfUrlExtractRule": {
         "selector": "iframe[src*=pdf]",
@@ -21917,10 +21918,12 @@
           "embed[type='application/pdf']",
           "iframe[src*=pdf]",
           "iframe[src*=documents]",
-          "#statements-pdf"
+          "#statements-pdf",
+          "object[type='application/pdf']"
         ],
         "attributes": [
-          "src"
+          "src",
+          "data"
         ],
         "queries": [
           "file"
@@ -22102,6 +22105,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-04-17T06:11:08.000Z",
+  "buildinConfigUpdatedAt": "2026-04-20T02:57:07.373Z",
   "latestVersion": "1.28.3"
 }
