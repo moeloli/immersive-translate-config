@@ -16876,15 +16876,6 @@
           "ccEnableSelector": "[data-cc-button=\"true\"]",
           "injectCSS": ".imt-quick-subtitle-button {margin: 0 6px; font-size: 12px;} .logo,.logo svg { height: 18px !important; width: 18px !important;} .imt-quick-subtitle-pop-content {bottom: 28px !important;}"
         },
-        "attachRule": {
-          "appendSelector": ".vp-telecine",
-          "injectedGlobalCSS": [
-            ".vp-captions { display: none !important; }"
-          ],
-          "injectedCSS": [
-            ".imt-caption-window {width: 90%;}"
-          ]
-        },
         "rtlInjectedCss": [
           "[data-immersive-translate_rtl] #immersive-translate-caption-window {direction: rtl;}",
           "[class^=CaptionsRenderer_module_captionsLine]:nth-child(2) {direction:rtl;width:100%;text-align:right;}"
@@ -22118,6 +22109,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-04-20T07:12:43.513Z",
+  "buildinConfigUpdatedAt": "2026-04-20T13:29:44.073Z",
   "latestVersion": "1.28.4"
 }
