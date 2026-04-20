@@ -7274,7 +7274,8 @@
         ],
         "quickButtonRule": {
           "appendSelector": ".ytp-right-controls",
-          "insertBeforeSelector": ".ytp-right-controls-left"
+          "insertBeforeSelector": ".ytp-right-controls-left",
+          "injectedGlobalCSS": ".ytp-chrome-controls {position: relative; z-index: 70;}"
         },
         "videoSelector": ".html5-video-player.playing-mode video,.html5-video-player.paused-mode video",
         "rtlInjectedCss": [
@@ -22105,6 +22106,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-04-20T04:40:39.000Z",
+  "buildinConfigUpdatedAt": "2026-04-20T06:56:26.109Z",
   "latestVersion": "1.28.4"
 }
