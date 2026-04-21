@@ -1092,7 +1092,7 @@
       }
     },
     {
-      "condition": "interfaceLanguage!=zh-CN && versionNumber>12802 && abTagNumber<3",
+      "condition": "interfaceLanguage!=zh-CN && versionNumber>12802 && abTagNumber<5",
       "advanceConfig": {
         "enableFreeModelMode": true,
         "translationServices.add": {
@@ -22123,6 +22123,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-04-21T03:46:55.434Z",
+  "buildinConfigUpdatedAt": "2026-04-21T11:00:01.465Z",
   "latestVersion": "1.28.4"
 }
