@@ -1,7 +1,7 @@
 {
   "tagsVersion": "2026-04-20-003",
   "tags": {
-    "business_collaboration": [
+    "collab": [
       "airtable.com",
       "asana.com",
       "atlassian.com",
@@ -24,7 +24,7 @@
       "slack.com",
       "zapier.com"
     ],
-    "cross_border_business": [
+    "commerce": [
       "admin.shopify.com",
       "aliexpress.com",
       "amazon.com",
@@ -51,29 +51,7 @@
       "woocommerce.com",
       "zendesk.com"
     ],
-    "finance_information": [
-      "bloomberg.com",
-      "bloombergchina.com",
-      "ecb.europa.eu",
-      "edgar.sec.gov",
-      "federalreserve.gov",
-      "fred.stlouisfed.org",
-      "ft.com",
-      "imf.org",
-      "investing.com",
-      "investor.gov",
-      "marketwatch.com",
-      "morningstar.com",
-      "oecd.org",
-      "reuters.com",
-      "sec.gov",
-      "seekingalpha.com",
-      "tradingeconomics.com",
-      "tradingview.com",
-      "worldbank.org",
-      "wsj.com"
-    ],
-    "high_value_developer": [
+    "dev": [
       "aws.amazon.com",
       "cloud.google.com",
       "developer.android.com",
@@ -98,7 +76,29 @@
       "supabase.com",
       "vercel.com"
     ],
-    "high_value_research": [
+    "finance": [
+      "bloomberg.com",
+      "bloombergchina.com",
+      "ecb.europa.eu",
+      "edgar.sec.gov",
+      "federalreserve.gov",
+      "fred.stlouisfed.org",
+      "ft.com",
+      "imf.org",
+      "investing.com",
+      "investor.gov",
+      "marketwatch.com",
+      "morningstar.com",
+      "oecd.org",
+      "reuters.com",
+      "sec.gov",
+      "seekingalpha.com",
+      "tradingeconomics.com",
+      "tradingview.com",
+      "worldbank.org",
+      "wsj.com"
+    ],
+    "research": [
       "arxiv.org",
       "clarivate.com",
       "dl.acm.org",
