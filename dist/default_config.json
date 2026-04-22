@@ -4396,7 +4396,7 @@
       ]
     },
     "shareCardRule": {
-      "enable": true
+      "enable": false
     },
     "ytAsrConfig": {
       "enable": true,
@@ -5868,21 +5868,11 @@
           }
         },
         {
-          "condition": "imtAndroidVersionNumber>0&&imtAndroidVersionNumber<20600",
+          "condition": "imtAndroidVersionNumber>20600||imtIOSVersionNumber>20600",
           "advanceConfig": {
             "generalRule": {
               "shareCardRule.add": {
-                "enable": false
-              }
-            }
-          }
-        },
-        {
-          "condition": "imtIOSVersionNumber>0&&imtIOSVersionNumber<20600",
-          "advanceConfig": {
-            "generalRule": {
-              "shareCardRule.add": {
-                "enable": false
+                "enable": true
               }
             }
           }
@@ -22150,6 +22140,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-04-22T02:54:19.068Z",
+  "buildinConfigUpdatedAt": "2026-04-22T03:47:04.848Z",
   "latestVersion": "1.28.4"
 }
