@@ -5180,6 +5180,14 @@
       "blockMinWordCount": 1,
       "containerMinTextCount": 1,
       "wrapperPrefix": "<br />",
+      "advanceMergeConfig": [
+        {
+          "condition": "true",
+          "advanceConfig": {
+            "sameLangTranslationTheme": "none"
+          }
+        }
+      ],
       "targetWrapperTag": "span",
       "allowInnerInvoke": true
     },
@@ -5233,7 +5241,14 @@
       "blockMinWordCount": 1,
       "containerMinTextCount": 1,
       "wrapperPrefix": "<br />",
-      "advanceMergeConfig": [],
+      "advanceMergeConfig": [
+        {
+          "condition": "true",
+          "advanceConfig": {
+            "sameLangTranslationTheme": "none"
+          }
+        }
+      ],
       "stayOriginalTags.remove": [
         "SAMP"
       ]
@@ -22123,6 +22138,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-04-21T11:00:01.465Z",
+  "buildinConfigUpdatedAt": "2026-04-22T01:56:21.636Z",
   "latestVersion": "1.28.4"
 }
