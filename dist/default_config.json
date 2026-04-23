@@ -4237,7 +4237,9 @@
       "[dir='rtl'] .immersive-translate-target-wrapper:not([dir]) {text-align:left;direction:ltr;}",
       ".immersive-translate-target-wrapper {word-break:break-word; user-select:text; font-feature-settings:normal;}",
       "[imt-state=dual] .immersive-translate-target-translation-block-wrapper-theme-dividingLine::before {display:block;}",
-      "[imt-trans-position=before] .immersive-translate-target-translation-block-wrapper {display:block!important;}"
+      "[imt-trans-position=before] .immersive-translate-target-translation-block-wrapper {display:block!important;}",
+      "[data-imt-clamp-unlocked] {scrollbar-width: none;-ms-overflow-style: none;}",
+      "[data-imt-clamp-unlocked]::-webkit-scrollbar {display: none;}"
     ],
     "isOnBoardingPage": false,
     "isEbook": false,
@@ -22150,6 +22152,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-04-23T03:18:42.738Z",
+  "buildinConfigUpdatedAt": "2026-04-23T06:23:40.715Z",
   "latestVersion": "1.28.4"
 }
