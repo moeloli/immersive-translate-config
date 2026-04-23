@@ -17,7 +17,7 @@
   "termsDomainWithSelf": false,
   "disableOpenUpgradePage": false,
   "forceAutoTranslate": false,
-  "popupVariant": "modern",
+  "popupVariant": "legacy",
   "sensitiveConfig": {
     "telemetry": true,
     "sensitiveMode": "close",
@@ -883,9 +883,9 @@
       }
     },
     {
-      "condition": "abTagNumber<5",
+      "condition": "installedAtTimestamp>1776873600000 && isMobile==false",
       "advanceConfig": {
-        "popupVariant": "legacy"
+        "popupVariant": "modern"
       }
     },
     {
@@ -22150,6 +22150,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-04-22T04:31:23.678Z",
+  "buildinConfigUpdatedAt": "2026-04-23T03:18:42.738Z",
   "latestVersion": "1.28.4"
 }
