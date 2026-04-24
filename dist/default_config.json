@@ -3425,6 +3425,11 @@
   ],
   "generalRule": {
     "_comment": "",
+    "siteParagraphCacheFallback": {
+      "enable": false,
+      "maxEntries": 3000,
+      "maxKB": 16384
+    },
     "advanceMergeConfig": [
       {
         "condition": "translationService == google-free || translationService == bing-free || inputTranslationService == google-free || inputTranslationService == bing-free || mouseHoverTranslationService == google-free || mouseHoverTranslationService == bing-free || clientImageTranslationService == google-free || clientImageTranslationService == bing-free || subtitleTranslateService == google-free || subtitleTranslateService == bing-free",
@@ -5046,6 +5051,9 @@
       "isTranslateTitle": false,
       "isInjectVersion": true,
       "isInjectMeta": true,
+      "siteParagraphCacheFallback.add": {
+        "enable": true
+      },
       "advanceMergeConfig": [
         {
           "condition": "true",
@@ -5091,6 +5099,9 @@
           }
         }
       ],
+      "siteParagraphCacheFallback.add": {
+        "enable": true
+      },
       "skipDynamicMarkSelectors": [
         ".immersive-translate-page",
         ".immersive-translate-page *"
@@ -5180,6 +5191,9 @@
       "bodyRule.add": {
         "enable": false
       },
+      "siteParagraphCacheFallback.add": {
+        "enable": true
+      },
       "paragraphMinTextCount": 4,
       "paragraphMinWordCount": 2,
       "blockMinTextCount": 1,
@@ -5211,6 +5225,9 @@
       "preTranslateLimiter.add_v.[1.12.1]": {
         "side.enableTranslate": true,
         "header.enableTranslate": true
+      },
+      "siteParagraphCacheFallback.add": {
+        "enable": true
       },
       "pageType": "ebookBuilder",
       "toastErrorMinTimes": 0,
@@ -5322,6 +5339,9 @@
       "mutationExcludeSelectors.add": [
         "#imt-navbar"
       ],
+      "siteParagraphCacheFallback.add": {
+        "enable": true
+      },
       "allowInnerInvoke": true,
       "skipIgnoreSelectors": [
         ".original-body"
@@ -5436,6 +5456,9 @@
       "allowInnerInvoke": true,
       "isInjectVersion": true,
       "isInjectMeta": true,
+      "siteParagraphCacheFallback.add": {
+        "enable": true
+      },
       "advanceMergeConfig": [
         {
           "condition": "true",
@@ -5480,6 +5503,9 @@
         "immersivetranslate.*/text"
       ],
       "enableAutoTranslateByReferrer": false,
+      "siteParagraphCacheFallback.add": {
+        "enable": true
+      },
       "blockMinTextCount": 0,
       "blockMinWordCount": 0,
       "detectParagraphLanguage": true,
@@ -22144,6 +22170,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-04-24T02:16:05.596Z",
-  "latestVersion": "1.28.4"
+  "buildinConfigUpdatedAt": "2026-04-24T09:02:35.471Z",
+  "latestVersion": "1.28.5"
 }
