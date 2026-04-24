@@ -5328,7 +5328,11 @@
     {
       "id": "pro-pdf-immersive",
       "matches": [
-        "https://*.immersivetranslate.*/pdf-pro*"
+        "https://*.immersivetranslate.*/pdf-pro*",
+        "https://immersivetranslate.com/*/document/pdf-pro/*"
+      ],
+      "mainFrameSelector": [
+        ".original-body"
       ],
       "pageType": "pdfProReader",
       "excludeSelectors": [
@@ -22170,6 +22174,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-04-24T09:02:17.000Z",
+  "buildinConfigUpdatedAt": "2026-04-24T16:19:48.009Z",
   "latestVersion": "1.28.5"
 }
