@@ -5038,7 +5038,9 @@
         "https://*.immersivetranslate.*/subtitle*",
         "https://*.immersivetranslate.*/*/download-subtitle",
         "http://localhost:38001/*/download-subtitle*",
-        "https://*.immersivetranslate.*/*/subtitle*"
+        "https://*.immersivetranslate.*/*/subtitle*",
+        "https://immersivetranslate.com/*/document/subtitle/*",
+        "https://immersivetranslate.com/*/document/download-subtitle/*"
       ],
       "pairs": {
         ".source-text": ".target-text"
@@ -5085,6 +5087,7 @@
         "https://test-app.immersivetranslate.*/pdf",
         "https://app.immersivetranslate.*/pdf/*",
         "https://test-app.immersivetranslate.*/pdf/*",
+        "https://immersivetranslate.com/*/document/pdf/*",
         "https://app.infread.com/pdf/*",
         "http://localhost:38001/pdf*"
       ],
@@ -5220,7 +5223,8 @@
         "http://localhost:38001/ebook/make*",
         "http://localhost:3000/*/ebook-make*",
         "https://*.immersivetranslate.*/*/*/ebook-make*",
-        "https://immersivetranslate.*/*/*/ebook-make*"
+        "https://immersivetranslate.*/*/*/ebook-make*",
+        "https://immersivetranslate.com/*/document/ebook-make/*"
       ],
       "preTranslateLimiter.add_v.[1.12.1]": {
         "side.enableTranslate": true,
@@ -5331,7 +5335,7 @@
         "https://*.immersivetranslate.*/pdf-pro*",
         "https://immersivetranslate.com/*/document/pdf-pro/*"
       ],
-      "mainFrameSelector": [
+      "mainFrameSelector.add": [
         ".original-body"
       ],
       "pageType": "pdfProReader",
@@ -5440,7 +5444,8 @@
       "id": "immersive-word",
       "matches": [
         "https://*.immersivetranslate.*/word*",
-        "https://*.immersivetranslate.*/*/word*"
+        "https://*.immersivetranslate.*/*/word*",
+        "https://immersivetranslate.com/*/document/word/*"
       ],
       "excludeSelectors.add": [
         "#imt-navbar *",
@@ -5450,6 +5455,9 @@
         "#imt-navbar"
       ],
       "skipIgnoreSelectors": [
+        ".original-body"
+      ],
+      "mainFrameSelector.add": [
         ".original-body"
       ],
       "blockMinTextCount": 0,
@@ -22174,6 +22182,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-04-24T16:19:48.009Z",
+  "buildinConfigUpdatedAt": "2026-04-24T16:31:34.331Z",
   "latestVersion": "1.28.5"
 }
