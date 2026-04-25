@@ -5898,26 +5898,6 @@
               }
             }
           }
-        },
-        {
-          "condition": "imtAndroidVersionNumber>20600",
-          "advanceConfig": {
-            "generalRule": {
-              "shareCardRule.add": {
-                "enable": true
-              }
-            }
-          }
-        },
-        {
-          "condition": "imtIOSVersionNumber>20600",
-          "advanceConfig": {
-            "generalRule": {
-              "shareCardRule.add": {
-                "enable": true
-              }
-            }
-          }
         }
       ],
       "ignoreZhCNandZhTW": true,
@@ -22182,6 +22162,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-04-24T16:31:34.331Z",
+  "buildinConfigUpdatedAt": "2026-04-25T03:46:24.188Z",
   "latestVersion": "1.28.5"
 }
