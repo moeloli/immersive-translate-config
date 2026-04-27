@@ -4692,7 +4692,7 @@
         "enabled": false,
         "triggerTypes": []
       },
-      "dualUnlock": true,
+      "dualUnlock": false,
       "dualUnlockStyle": "-webkit-line-clamp: unset; line-clamp: unset; text-overflow: unset; max-height: none; height: auto; overflow: auto;",
       "dualUnlockMaxDepth": 5
     },
@@ -22162,6 +22162,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-04-25T03:46:24.188Z",
+  "buildinConfigUpdatedAt": "2026-04-27T03:46:21.656Z",
   "latestVersion": "1.28.5"
 }
