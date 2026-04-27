@@ -5511,6 +5511,9 @@
       "skipIgnoreSelectors": [
         ".original-body"
       ],
+      "mainFrameSelector.add": [
+        ".original-body"
+      ],
       "withAITitleBlockUrls": [
         "immersivetranslate.*/text"
       ],
@@ -22162,6 +22165,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-04-27T03:46:21.656Z",
+  "buildinConfigUpdatedAt": "2026-04-27T15:25:14.898Z",
   "latestVersion": "1.28.5"
 }
