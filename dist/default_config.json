@@ -2403,7 +2403,7 @@
       "visible": true,
       "extends": "ai",
       "name": "Deepseek",
-      "model": "deepseek-chat",
+      "model": "deepseek-v4-flash",
       "models": "deepseek-v4-flash|deepseek-v4-pro|deepseek-chat|deepseek-reasoner",
       "limit": 10,
       "apiUrl": "https://api.deepseek.com/chat/completions",
@@ -22186,6 +22186,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-04-28T12:34:42.767Z",
+  "buildinConfigUpdatedAt": "2026-04-28T12:38:46.661Z",
   "latestVersion": "1.28.5"
 }
