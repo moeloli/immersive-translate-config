@@ -49,6 +49,20 @@ export default {
           },
         }),
       );
+    } else if (pathname === "/dynamic-i18n.json") {
+
+      //
+      // no cache
+
+      return formatResponse(
+        new Response(JSON.stringify(DYNAMIC_I18N,null,2)
+        , {
+          headers: {
+            "Content-Type": "application/json",
+            "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
+          },
+        }),
+      );
     } else {
       return formatResponse(
         new Response("Not Found", {
