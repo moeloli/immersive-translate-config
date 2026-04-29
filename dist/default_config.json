@@ -20482,16 +20482,6 @@
       ]
     },
     {
-      "id": "ozon",
-      "matches": "www.ozon.ru",
-      "injectedCss.add": [
-        ".tile-clickable-element > div {-webkit-line-clamp:unset;}"
-      ],
-      "preTranslateLimiter.add_v.[1.12.1]": {
-        "header.selectors": []
-      }
-    },
-    {
       "id": "journals.aps",
       "matches": "journals.aps.*",
       "enableRichTranslate": false,
@@ -20957,18 +20947,21 @@
     {
       "id": "ru-sites",
       "matches": [
-        "www.wildberries.ru"
+        "www.wildberries.ru",
+        "www.ozon.ru"
       ],
       "injectedCss.add": [
         ".product-page,.comment-card,.comment-card__message {block-size:unset!important;}",
         "[class^=supplierName],[class^=supplierName] * {white-space:unset;}",
-        "[class*=categoryLinkNav] {width:min-content;}"
+        "[class*=categoryLinkNav] {width:min-content;}",
+        ".bq03_5_3-a6,.bq03_5_3-a5,.a2p5_6_9-a0 {-webkit-line-clamp:unset!important;height:unset!important;}"
       ],
       "excludeSelectors.add": [
         ".product-card__tip--sale",
         ".price,[class^=priceWrap]",
         ".j-big-media-placements-block",
-        "[class^='priceBlock'],[class^='product-card__rating'],[class^=productLinePrice],[class^=sizesList]"
+        "[class^='priceBlock'],[class^='product-card__rating'],[class^=productLinePrice],[class^=sizesList]",
+        ".c35_3_16-a0,.pdp_jb1,.b5_6_3-a3,.tsHeadline600Large,.tsHeadline500Medium"
       ],
       "mixedMode.add": {
         "dualUnlock": true,
@@ -22211,6 +22204,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-04-29T14:33:15.003Z",
+  "buildinConfigUpdatedAt": "2026-04-29T16:05:14.842Z",
   "latestVersion": "1.28.5"
 }
