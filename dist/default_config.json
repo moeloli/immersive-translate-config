@@ -20960,16 +20960,19 @@
         "www.wildberries.ru"
       ],
       "injectedCss.add": [
-        ".product-page,.comment-card,.comment-card__message {block-size:unset!important;}"
+        ".product-page,.comment-card,.comment-card__message {block-size:unset!important;}",
+        "[class^=supplierName],[class^=supplierName] * {white-space:unset;}",
+        "[class*=categoryLinkNav] {width:min-content;}"
       ],
       "excludeSelectors.add": [
         ".product-card__tip--sale",
-        ".price",
+        ".price,[class^=priceWrap]",
         ".j-big-media-placements-block",
         "[class^='priceBlock'],[class^='product-card__rating'],[class^=productLinePrice],[class^=sizesList]"
       ],
       "mixedMode.add": {
-        "dualUnlock": true
+        "dualUnlock": true,
+        "dualUnlockStyle": "-webkit-line-clamp: unset; line-clamp: unset; text-overflow: unset; max-height: none; height: auto; overflow: auto;white-space:unset;flex-wrap:wrap;"
       },
       "preTranslateLimiter.add": {
         "side.selectors": [],
@@ -22208,6 +22211,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-04-29T10:37:01.224Z",
+  "buildinConfigUpdatedAt": "2026-04-29T11:12:28.733Z",
   "latestVersion": "1.28.5"
 }
