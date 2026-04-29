@@ -20959,7 +20959,7 @@
       "matches": [
         "www.wildberries.ru"
       ],
-      "injectedCss": [
+      "injectedCss.add": [
         ".product-page,.comment-card,.comment-card__message {block-size:unset!important;}"
       ],
       "excludeSelectors.add": [
@@ -22208,6 +22208,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-04-29T10:27:58.679Z",
+  "buildinConfigUpdatedAt": "2026-04-29T10:37:01.224Z",
   "latestVersion": "1.28.5"
 }
