@@ -20955,6 +20955,28 @@
       }
     },
     {
+      "id": "ru-sites",
+      "matches": [
+        "www.wildberries.ru"
+      ],
+      "injectedCss": [
+        ".product-page,.comment-card,.comment-card__message {block-size:unset!important;}"
+      ],
+      "excludeSelectors.add": [
+        ".product-card__tip--sale",
+        ".price",
+        ".j-big-media-placements-block",
+        "[class^='priceBlock'],[class^='product-card__rating'],[class^=productLinePrice],[class^=sizesList]"
+      ],
+      "mixedMode.add": {
+        "dualUnlock": true
+      },
+      "preTranslateLimiter.add": {
+        "side.selectors": [],
+        "header.selectors": []
+      }
+    },
+    {
       "id": "autoHeight",
       "matches": [
         "*.sooplive.*",
@@ -22186,6 +22208,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-04-28T12:38:46.661Z",
+  "buildinConfigUpdatedAt": "2026-04-29T10:27:58.679Z",
   "latestVersion": "1.28.5"
 }
