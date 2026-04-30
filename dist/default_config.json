@@ -4802,6 +4802,7 @@
       "[value=ka]"
     ],
     "mouseHoverExcludeSelectors": [
+      "[contenteditable=true] *",
       "rp",
       "rt",
       ".prism-code",
@@ -22204,6 +22205,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-04-29T16:05:14.842Z",
+  "buildinConfigUpdatedAt": "2026-04-30T04:20:54.276Z",
   "latestVersion": "1.28.5"
 }
