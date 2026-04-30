@@ -2420,7 +2420,7 @@
       "enableRichTranslate": false,
       "dualEnableRichTranslate": false,
       "translationEnableRichTranslate": true,
-      "proModel": "DeepSeek-V3.2-Fast",
+      "proModel": "DeepSeek-V4-Flash",
       "enableFallback": true,
       "proLimit": 10,
       "requestTimeout": 200000,
@@ -3031,7 +3031,7 @@
       ]
     },
     "deepseek-pro": {
-      "name": "DeepSeek-V3.2",
+      "name": "DeepSeek-V4-Flash",
       "type": "deepseek",
       "group": "pro",
       "extends": "deepseek",
@@ -22360,6 +22360,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-04-30T09:46:52.288Z",
+  "buildinConfigUpdatedAt": "2026-04-30T10:57:24.578Z",
   "latestVersion": "1.28.5"
 }
