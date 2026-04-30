@@ -510,7 +510,15 @@
     "https://comic-gardo.com/[ComicGardo][chrome,firefox,safari,imtAndroid]",
     "https://booklive.jp/[Booklive][chrome,firefox,safari,imtAndroid]",
     "https://www.mrblue.com/[MrBlue][chrome,firefox,safari,imtAndroid]",
-    "https://mangalove.me/[MangaLove][chrome,firefox,safari,imtAndroid,imtIOSNew]"
+    "https://mangalove.me/[MangaLove][chrome,firefox,safari,imtAndroid,imtIOSNew]",
+    "https://rawdevart.art/[rawdevart.art][chrome,firefox,safari,imtAndroid,imtIOSNew]",
+    "https://manga-shinchan.com/[manga-shinchan.com][chrome,firefox,safari,imtAndroid,imtIOSNew]",
+    "https://yaoimangaonline.com/[yaoimangaonline.com][chrome,firefox,safari,imtAndroid,imtIOSNew]",
+    "https://nhentaiyaoi.net/[nhentaiyaoi][chrome,firefox,safari,imtAndroid,imtIOSNew]",
+    "https://www.orchisasia.org/[orchisasia][chrome,firefox,safari,imtAndroid,imtIOSNew]",
+    "https://mangalib.org/[mangalib][chrome,firefox,safari,imtAndroid,imtIOSNew]",
+    "https://novelcrow.com/[novelcrow][chrome,firefox,safari,imtAndroid,imtIOSNew]",
+    "https://cn.twbzmg.com/[cn.twbzmg.com][chrome,firefox,safari,imtAndroid,imtIOSNew]"
   ],
   "supportedVideoSubtitleSites": [
     "https://www.youtube.com[YouTube]",
@@ -12443,6 +12451,151 @@
       }
     },
     {
+      "id": "rawdevart.art",
+      "matches": [
+        "rawdevart.art"
+      ],
+      "imageRule.add": {
+        "type": "manga",
+        "imageSelectors": [
+          ".chapter-img img"
+        ],
+        "platforms": [
+          "chrome",
+          "firefox",
+          "imtIOSNew",
+          "safari"
+        ]
+      }
+    },
+    {
+      "id": "manga-shinchan.com",
+      "matches": [
+        "manga-shinchan.com"
+      ],
+      "imageRule.add": {
+        "type": "manga",
+        "imageSelectors": [
+          ".tiup_body div p img",
+          ".item__list-lists figure img"
+        ],
+        "platforms": [
+          "chrome",
+          "firefox",
+          "imtIOSNew",
+          "safari"
+        ]
+      }
+    },
+    {
+      "id": "cn.twbzmg.com",
+      "matches": [
+        "cn.twbzmg.com"
+      ],
+      "imageRule.add": {
+        "type": "manga",
+        "imageSelectors": [
+          ".comic-contain div amp-img img"
+        ],
+        "platforms": [
+          "chrome",
+          "firefox",
+          "imtIOSNew",
+          "safari"
+        ]
+      }
+    },
+    {
+      "id": "mangalib",
+      "matches": [
+        "mangalib.org"
+      ],
+      "imageRule.add": {
+        "type": "manga",
+        "imageSelectors": [
+          ".xo_ct img"
+        ],
+        "platforms": [
+          "chrome",
+          "firefox",
+          "imtIOSNew",
+          "safari"
+        ]
+      }
+    },
+    {
+      "id": "yaoimangaonline",
+      "matches": [
+        "yaoimangaonline.com"
+      ],
+      "imageRule.add": {
+        "type": "manga",
+        "imageSelectors": [
+          ".row div div p img"
+        ],
+        "platforms": [
+          "chrome",
+          "firefox",
+          "imtIOSNew",
+          "safari"
+        ]
+      }
+    },
+    {
+      "id": "nhentaiyaoi",
+      "matches": [
+        "nhentaiyaoi.net"
+      ],
+      "imageRule.add": {
+        "type": "manga",
+        "imageSelectors": [
+          ".post-fotos li a img"
+        ],
+        "platforms": [
+          "chrome",
+          "firefox",
+          "imtIOSNew",
+          "safari"
+        ]
+      }
+    },
+    {
+      "id": "orchisasia",
+      "matches": [
+        "www.orchisasia.org"
+      ],
+      "imageRule.add": {
+        "type": "manga",
+        "imageSelectors": [
+          ".page-break.no-gaps img"
+        ],
+        "platforms": [
+          "chrome",
+          "firefox",
+          "imtIOSNew",
+          "safari"
+        ]
+      }
+    },
+    {
+      "id": "novelcrow",
+      "matches": [
+        "novelcrow.com"
+      ],
+      "imageRule.add": {
+        "type": "manga",
+        "imageSelectors": [
+          ".page-break img"
+        ],
+        "platforms": [
+          "chrome",
+          "firefox",
+          "imtIOSNew",
+          "safari"
+        ]
+      }
+    },
+    {
       "id": "scholar.cnki.net",
       "matches": "scholar.cnki.net",
       "injectedCss.add": [
@@ -13923,7 +14076,8 @@
       "id": "mangarawad",
       "matches": [
         "mangarawad.org",
-        "mangarawad.blog"
+        "mangarawad.blog",
+        "mangarawad.buzz"
       ],
       "imageRule.add": {
         "enable": true,
@@ -22206,6 +22360,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-04-30T08:14:12.570Z",
+  "buildinConfigUpdatedAt": "2026-04-30T09:46:52.288Z",
   "latestVersion": "1.28.5"
 }
