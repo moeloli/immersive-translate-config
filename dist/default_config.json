@@ -766,7 +766,8 @@
     "blockUrls": [
       "*immersivetranslate.*/preview",
       "*.immersivetranslate.*/download-subtitle*",
-      "dash.immersivetranslate.*/*"
+      "dash.immersivetranslate.*/*",
+      "https://steamloopback.host/index.html*"
     ],
     "guideBlockUrls": [
       "https://immersivetranslate.*/accounts/login*",
@@ -22205,6 +22206,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-04-30T04:20:54.276Z",
+  "buildinConfigUpdatedAt": "2026-04-30T08:14:12.570Z",
   "latestVersion": "1.28.5"
 }
