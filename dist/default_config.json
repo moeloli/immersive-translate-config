@@ -5863,7 +5863,8 @@
         "[data-testid=sidebarColumn]",
         "h2[role=heading]",
         "[class='css-175oi2r r-1awozwy r-18u37iz r-1wtj0ep r-6gpygo'],[class='css-175oi2r r-1d09ksm r-18u37iz r-1wbh5a2 r-1471scf'],[class='css-175oi2r r-1kbdv8c r-18u37iz r-1wtj0ep r-1ye8kvj r-1s2bzr4']",
-        ".imt-caption-container *"
+        ".imt-caption-container *",
+        "[data-testid=videoComponent]"
       ],
       "extraBlockSelectors.add": [
         "[data-testid=\"tweetText\"] div.r-6koalj"
@@ -22357,6 +22358,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-05-05T13:03:53.939Z",
+  "buildinConfigUpdatedAt": "2026-05-06T13:01:53.721Z",
   "latestVersion": "1.28.5"
 }
