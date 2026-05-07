@@ -6381,8 +6381,7 @@
       ],
       "excludeSelectors.add": [
         ".vue-recycle-scroller"
-      ],
-      "excludeSelectors.replace.[1.24.5]": []
+      ]
     },
     {
       "id": "hackerNews",
@@ -22358,6 +22357,6 @@
       "isTransformPreTagNewLine": true
     }
   ],
-  "buildinConfigUpdatedAt": "2026-05-06T13:01:53.721Z",
+  "buildinConfigUpdatedAt": "2026-05-07T01:08:25.097Z",
   "latestVersion": "1.28.5"
 }
